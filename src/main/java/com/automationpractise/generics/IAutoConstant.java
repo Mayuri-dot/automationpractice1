@@ -16,5 +16,5 @@ public interface IAutoConstant  {
 	String pathss="D:\\MetLife Workspace\\automationpractise\\src\\test\\resources\\screenshot";
 	
 	long ITO=10;
-    long ETO=10;
+    long ETO=15;
 }
