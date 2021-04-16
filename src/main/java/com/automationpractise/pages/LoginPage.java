@@ -12,11 +12,6 @@ public class LoginPage extends FWUtils {
 	@FindBy(xpath="//*[@class='login']")
 	private WebElement  signin;
 	
-	
-//	@FindBy(id="email")
-//	private WebElement username;
-	
-	
 	public LoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
@@ -27,10 +22,5 @@ public class LoginPage extends FWUtils {
 		signin.click();
 	}
 	
-//	public void SetUsername(String un)
-//	{
-//		
-//	username.sendKeys(un);
-//	
-	
+
 }
