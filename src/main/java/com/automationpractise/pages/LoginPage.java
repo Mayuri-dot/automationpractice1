@@ -13,8 +13,7 @@ public class LoginPage extends FWUtils {
 	private WebElement  signin;
 	
 	
-//	@FindBy(id="email")
-//	private WebElement username;
+
 	
 	
 	public LoginPage(WebDriver driver)
@@ -27,10 +26,5 @@ public class LoginPage extends FWUtils {
 		signin.click();
 	}
 	
-//	public void SetUsername(String un)
-//	{
-//		
-//	username.sendKeys(un);
-//	
-	
+
 }
