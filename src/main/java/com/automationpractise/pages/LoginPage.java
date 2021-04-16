@@ -12,10 +12,6 @@ public class LoginPage extends FWUtils {
 	@FindBy(xpath="//*[@class='login']")
 	private WebElement  signin;
 	
-	
-
-	
-	
 	public LoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
